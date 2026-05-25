@@ -1,6 +1,13 @@
 # Exercise 7: Onboard Azure Monitor for containers with Azure Arc-enabled Kubernetes cluster [Read-only]
 ### Estimated Duration: 30 Minutes
-In this exercise, you will see how to configure Azure Monitor for containers and view insights for Kubernetes - Azure Arc resource.
+
+## Lab Scenario
+
+Contoso has successfully deployed and managed its Kubernetes clusters using Azure Arc and GitOps practices. As the environment grows, the operations team now requires enhanced visibility into cluster health, performance, and resource utilization to ensure reliability and quick issue resolution.
+
+To achieve this, Contoso is implementing Azure Monitor for containers to collect and analyze telemetry data from their Azure Arc-enabled Kubernetes clusters. This will provide insights into nodes, pods, and container performance, enabling proactive monitoring and troubleshooting.
+
+In this exercise, you will configure Azure Monitor for an Azure Arc-enabled Kubernetes cluster by integrating it with a Log Analytics workspace. You will then explore the monitoring insights available in the Azure Portal. By the end of this exercise, you will have enabled centralized monitoring and gained visibility into the operational health of your Kubernetes environment.
 
 ## Objective
 

@@ -1,7 +1,12 @@
 # Hands-on Lab 01
 # Exercise 1: Getting Started with Azure Arc
 ### Estimated Duration: 60 Minutes
-In this exercise, you will learn how to onboard and manage on-premises resources and Kubernetes clusters using Azure Arc. The lab demonstrates how Azure Arc can help Contoso organize servers and Kubernetes clusters, govern them through Azure Policy, and monitor them centrally via Azure Monitor.
+
+## Lab Scenario
+
+In this exercise, you will learn how to onboard and manage on-premises resources and Kubernetes clusters using Azure Arc. Contoso aims to centralize management of its hybrid infrastructure by integrating servers and Kubernetes environments into Azure.
+
+You will onboard a Linux machine and a Kubernetes cluster hosted on Hyper-V to Azure Arc, verify their connectivity, and apply Azure Policy to ensure compliance. Additionally, you will enable Azure Monitor to gain centralized visibility and performance insights, demonstrating how Azure Arc simplifies governance and monitoring across hybrid and multi-cloud environments.
 
 ## Objectives
 

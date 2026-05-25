@@ -2,7 +2,11 @@
 ### Estimated Duration: 45 Minutes
 ## Overview 
 
-In the last exercise, you have seen how to enable security measures and monitoring for Arc-enabled servers. In this exercise, you will onboard SQL Server to Azure Arc using Azure Portal and PowerShell commands.
+## Lab Scenario
+
+Your organization is expanding its hybrid cloud strategy by bringing critical data services under centralized management using Azure Arc. As part of this initiative, SQL Server instances running in non-Azure environments need to be onboarded to Azure to enable unified governance, monitoring, and security.
+
+In this exercise, you will onboard an existing SQL Server instance to Azure Arc using both the Azure Portal and PowerShell. You will then configure monitoring by integrating it with Azure services and run an on-demand SQL Best Practices Assessment. This will help identify configuration issues, security gaps, and optimization opportunities. By the end of this exercise, you will have full visibility and management capabilities for your SQL Server through Azure Arc.
 
 ## Objectives
 
@@ -102,13 +106,13 @@ Now that the registration script is prepared, you will switch to the LabVM/ARCHo
 
    ![](.././media/completed.png "sqlsearch")
 
-   >>**Note:** Please wait until the commands finish executing. If the script appears to be stuck, press **Enter** a few times to continue.
+   > **Note:** Please wait until the commands finish executing. If the script appears to be stuck, press **Enter** a few times to continue.
 
 1. Bring back the browser window where you had opened Azure Portal and search for **Azure Arc | SQL Server instances**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step.
 
    ![](.././media/new/e4.png)
 
-   >**NOTE:** Wait for 5-10 minutes to show from registered to connected, if you don't see the Mode as **Connected**, then open a new Powershell window and run the below script, ensure to update the values in the `$block` section to define your variables. You can fetch these values from the **Environment > Service Principal Details** tab.
+   > **NOTE:** Wait for 5-10 minutes to show from registered to connected, if you don't see the Mode as **Connected**, then open a new Powershell window and run the below script, ensure to update the values in the `$block` section to define your variables. You can fetch these values from the **Environment > Service Principal Details** tab.
 
    ```
    $block = {

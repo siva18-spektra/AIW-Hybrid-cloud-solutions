@@ -1,7 +1,14 @@
 # Hands-on Lab 03
 # Exercise 8: Deploying Azure Arc Data Controller with direct connectivity mode and Azure Arc-enabled SQL Managed Instance Business Critical
 ### Estimated Duration: 90 Minutes  
-In this exercise, you will be connecting an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes. You will be deploying an Azure data controller in direct connectivity mode to a custom location using Azure portal and Azure CLI, and later you will be creating the Azure Arc-enabled SQL Managed Instance Business Critical on top of the Azure Arc Data Controller. In the short term, you will be preparing an infrastructure for the next exercise to restore the Databases into the Azure SQL Managed Instance. 
+
+## Lab Scenario
+
+Contoso is modernizing its data platform by extending Azure services to its on-premises and edge environments using Azure Arc. As part of this strategy, the organization needs a consistent and scalable way to deploy and manage data services, such as SQL Managed Instances, across hybrid infrastructure.
+
+To achieve this, Contoso plans to use Azure Arc-enabled Kubernetes along with Azure Arc data services. By deploying an Azure Arc Data Controller in direct connectivity mode, they can centrally manage, monitor, and govern data services while maintaining control over their infrastructure.
+
+In this exercise, you will connect a Kubernetes cluster to Azure using Azure Arc, create a custom location, and deploy an Azure Arc Data Controller. You will then provision an Azure Arc-enabled SQL Managed Instance (Business Critical tier) on top of this data controller. By the end of this exercise, you will establish a hybrid data platform that enables consistent deployment, management, and monitoring of SQL workloads across environments.
 
 ## Objectives
 

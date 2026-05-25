@@ -1,5 +1,8 @@
 # Exercise 9: Restoring an AdventureWorks database backup taken from SQL Server 2012 instance [Read-only]
 ### Estimated Duration: 45 Minutes
+
+## Lab Scenario
+
 Contoso has some applications that use SQL Server as the backend database. They have installed SQL Server on their Windows servers in their manufacturing plants, but these locations don’t necessarily have local IT support to update the operating system and SQL Server with the latest security updates. They have explored Azure Database for SQL Server and found that it meets their requirements and offers some unique capabilities, such as being easy to manage and migrating from different cloud platforms. Therefore, they are excited about the opportunity of deploying SQL Server in their Azure Arc Arc-enabled environment.
 
 ## Objectives

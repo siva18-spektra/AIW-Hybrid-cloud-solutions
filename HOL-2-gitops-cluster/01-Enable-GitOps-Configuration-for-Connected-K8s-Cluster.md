@@ -3,9 +3,14 @@
 # Exercise 5: Enable GitOps Configuration on connected K8s Cluster
 
 ### Estimated Duration: 60 Minutes
-In addition to managing and monitoring their Kubernetes clusters, Contoso’s central development teams are building applications for internal inventory management at their distribution sites. They need these applications to be containerized and run on Kubernetes clusters. The locations are spread across the country, and Contoso is faced with the challenge of how to uniformly deploy, configure and manage their containerized applications across all these locations. By leveraging GitOps on Azure Arc-enabled Kubernetes, Contoso can centrally declare its Kubernetes configurations and applications in a Git repository and deploy them to all clusters simultaneously. Developers are more empowered because they can commit changes directly in the Git repo, and these updates are also automatically rolled out to all the clusters.
 
-GitOps, as it relates to Kubernetes, is the practice of declaring the desired state of Kubernetes configuration (deployments, namespaces, etc.) in a Git repository, followed by a polling and pull-based deployment of these configurations to the cluster using an operator. In this exercise, you will deploy a sample Kubernetes app using the az k8sconfiguration command and gitops and also update the configuration in the repository which you have linked to the connected cluster and verify if the cluster is getting updated based on the changes made. You will be using the Kubernetes cluster with which you connected in the earlier exercise.
+## Lab Scenario
+
+Contoso is managing multiple Kubernetes clusters distributed across various on-premises and remote locations. Ensuring consistent application deployment and configuration across these clusters has become challenging using traditional manual methods. The development teams want a modern, scalable approach that enables centralized management while allowing developers to independently manage application updates.
+
+To address this, Contoso has adopted a GitOps-based deployment model using Azure Arc-enabled Kubernetes. By storing application configurations in a Git repository, they can automatically deploy and synchronize changes across all connected clusters.
+
+In this exercise, you will implement GitOps on an Azure Arc-enabled Kubernetes cluster by connecting it to a GitHub repository. You will deploy a sample application using Flux, the GitOps operator, and validate that the cluster state matches the desired configuration defined in the repository. By the end of this exercise, you will have enabled automated, consistent, and scalable application deployment across Kubernetes environments.
 
 ## Objectives
 
