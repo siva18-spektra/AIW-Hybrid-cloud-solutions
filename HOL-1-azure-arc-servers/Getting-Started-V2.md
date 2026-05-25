@@ -1,6 +1,12 @@
 # Hybrid Cloud Solution Hands-On Lab
 ### Overall Estimated Duration: 8 Hours
 
+## Lab Scenario
+ 
+Contoso is a hybrid IT operations team responsible for managing applications and data across on-premises servers, edge devices, and cloud-connected Kubernetes clusters. Today they need to bring existing Linux and Windows servers under centralized control, enable consistent security monitoring with Microsoft Defender for Cloud and Sentinel, deploy GitOps-driven configuration for Kubernetes, and run Azure Arc-enabled data services for SQL workloads.
+ 
+This lab guides you through the same practical tasks an IT engineer or cloud architect would perform to modernize hybrid infrastructure, enforce governance, and enable cloud-native SQL management while keeping control of distributed resources.
+
 ## Overview
 
 Azure Arc is a solution that extends Azure's capabilities to manage and run applications and services across diverse environments such as datacenters, edge locations, and multicloud platforms. It provides a unified approach for developing, operating, and securing both new and existing applications using the same tools, security measures, and governance mechanisms available within the Azure ecosystem. Azure Arc enables you to utilize Azure services such as application management, data, and AI on existing hardware, virtualization platforms, Kubernetes clusters, IoT devices, and integrated systems.
@@ -35,7 +41,7 @@ In the Azure Arc architecture, **Azure Arc** enables unified management for Cont
 
 ## Architecture Diagram
 
-![Architecture](.././media/new/arch.png)
+![Architecture](.././media/new/arch-1.png)
 
 ## Explanation of Components
 

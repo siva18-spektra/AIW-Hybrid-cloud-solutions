@@ -25,6 +25,8 @@ You can connect your non-Azure computers in any of the following ways:
 
    ![](.././media/new/a9.png)
 
+   > **Note:** If you can't find the **Enable plans for Defender** option, move to **Step 5** and verify whether the subscription is loaded successfully,if its loaded proceed from there.
+
 1. On the **Upgrade (1)** tab, scroll down and then **check on all the checkboxes (2)** and click on **Upgrade (3)**.
 
    ![](.././media/new/aa1.png)
@@ -187,7 +189,11 @@ You can use the Azure Policy Deploy Log Analytics agent to Linux or Windows Azur
    
       ![](.././media/new/r4.png) 
 
-      ![](.././media/arc20.png)       
+      ![](.././media/new/r4-1.png) 
+
+      ![](.././media/arc20.png)
+
+      > **Note:** Please select **Query packs** as shown in the image and proceed with searching for the VM process. Before that, select **Other** and perform the search there.   
 
       > **Note**: The data might take time to get populated. You can continue with next exercise.
 

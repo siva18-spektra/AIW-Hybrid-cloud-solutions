@@ -1,4 +1,4 @@
-# Exercise 4: Enabling Azure Automanage for Server - Azure Arc
+# Exercise 4: Enabling Azure Automanage for Server - Azure Arc [Read-only]
 
 ### Estimated Duration: 30 Minutes
 

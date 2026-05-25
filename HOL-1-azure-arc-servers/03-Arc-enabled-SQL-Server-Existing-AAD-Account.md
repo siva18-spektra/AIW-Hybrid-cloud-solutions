@@ -102,6 +102,8 @@ Now that the registration script is prepared, you will switch to the LabVM/ARCHo
 
    ![](.././media/completed.png "sqlsearch")
 
+   >>**Note:** Please wait until the commands finish executing. If the script appears to be stuck, press **Enter** a few times to continue.
+
 1. Bring back the browser window where you had opened Azure Portal and search for **Azure Arc | SQL Server instances**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step.
 
    ![](.././media/new/e4.png)

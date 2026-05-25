@@ -1,4 +1,4 @@
-# Exercise 7: Onboard Azure Monitor for containers with Azure Arc-enabled Kubernetes cluster
+# Exercise 7: Onboard Azure Monitor for containers with Azure Arc-enabled Kubernetes cluster [Read-only]
 ### Estimated Duration: 30 Minutes
 In this exercise, you will see how to configure Azure Monitor for containers and view insights for Kubernetes - Azure Arc resource.
 
@@ -19,6 +19,16 @@ In this task, you will enable Azure Monitor for your Azure Arc-enabled Kubernete
 1. On the **microk8s-cluster** pane, expand **Monitoring (1)** from the left navigation pane, select **Insights (2)** and click on **Configure monitoring (3)**.
 
    ![](.././media/new/e8.png)
+
+   > **Note:** If the **Configure Monitoring** option is not visible, follow the steps below before proceeding:
+   - **Step 1:** In the Azure portal, use the **Global Search bar**, search for **Monitor(1)**, and select **Monitor(2)** as shown in the image.
+
+      ![](.././media/new/e8-1.png)
+      
+   - **Step 2:** On the **Monitor** page, navigate to **Insights (1)** --> **Containers (2)**. Select **Unmonitored clusters (3)**, locate the **microk8s-cluster** and click **Enable(4)**.
+   
+      ![](.././media/new/e8-2.png)
+
 
 1. Under **Capabilities**, click on **Customize capabilities**.
 

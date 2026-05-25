@@ -13,8 +13,8 @@ In this exercise, you will be performing the following tasks:
 - Task 4: Deploy Azure Arc Data Controller in directly connected mode using Azure Portal.
 - Task 5: Monitor the creation of Azure Arc data controller on the cluster.
 - Task 6: Deploy Azure Arc-enabled SQL Managed Instance using Azure Portal.
-- Task 7: Connecting Azure Arc Data Controller using Azure Data Studio.
-- Task 8: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.
+- Task 7: Connecting Azure Arc Data Controller using Azure Data Studio.[Read-only]
+- Task 8: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.[Read-only]
 
 
 ## Task 1: Log in to Azure and install Azure CLI extensions.
@@ -480,7 +480,7 @@ Let's create an **Azure Arc-enabled SQL Managed Instance** using Azure Portal on
   
     ![](./media/hybrid69.png)
 
-## Task 7: Connecting Azure Arc Data Controller using Azure Data Studio
+## Task 7: Connecting Azure Arc Data Controller using Azure Data Studio [Read-only]
 
 Now, let us connect to the data controller using Azure Data Studio.
 
@@ -558,7 +558,7 @@ Now, let us connect to the data controller using Azure Data Studio.
   
     ![](./media/ads-direct-overview.png "Azure Data Studio")
 
-## Task 8: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.
+## Task 8: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio. [Read-only]
 
 In this task, let us learn how to connect to Azure Arc-enabled SQL Managed instance using Azure Data Studio.
 

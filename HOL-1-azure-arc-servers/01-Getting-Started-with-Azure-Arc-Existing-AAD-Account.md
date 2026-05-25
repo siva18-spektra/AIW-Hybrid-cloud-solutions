@@ -26,9 +26,9 @@ Hyper-V is Microsoft's hardware virtualization product. It lets you create and r
 
     ![](.././media/new/2.png) 
 
-1. Confirm whether you have a total of 13 records to confirm that all the below resources are deployed successfully.
-
-    ![](.././media/new/aq1.png)
+1. Confirm whether you have a total of 12 records to confirm that all the below resources are deployed successfully.
+ 
+    ![](.././media/new/aq1-1.png)
 
    * In the Resource group we have one **Virtual Machine**, **Kubernetes Service**, **Storage account** and **Log Analytics workspace** deployed.
 
@@ -39,6 +39,8 @@ Hyper-V is Microsoft's hardware virtualization product. It lets you create and r
    * **Storage Account:** You will use this storage account to backup and restore the database to SQL MI.
    
    * **Log Analytics workspace:** You will be using one of the Log Analytics workspaces to upload and view the logs generated from both Postgres Hyperscale and SQL MI servers.
+
+   > **Note:** If you see either **12 or 13 records**, you can proceed further with the next steps.
 
 1. Now, double-click on the **Hyper-V Manager** from the desktop of the provided Virtual Machine to start the Hyper-V Manager.
 

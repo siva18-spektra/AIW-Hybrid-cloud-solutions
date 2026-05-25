@@ -22,6 +22,8 @@ In this task, you will create a personal copy (fork) of the public arc-k8s-demo 
 1. Launch the following GitHub repository URL ```https://github.com/CloudLabsAI-Azure/arc-k8s-demo```. In the upper right corner, you will see **Sign in (1)** and **Sign up (2)** options. If you already have a github account, then click on **Sign in**, otherwise **Sign up**.
 
    ![](.././media/new/9.png)
+
+   > **Note:** Please use your personal email address for GitHub.
    
 1. If you click on **Sign in**, You will be prompted to provide your **Github Username/email address (1)** and Password (2) then click on **Sign in (3)**
    
